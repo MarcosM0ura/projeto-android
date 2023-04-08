@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #70DB93;
+
+}  
+header{
+    color: white;
+    background-color: #32CD99;
+    margin: 0;
+    text-align: center;
+    
+    
+}  
+.opcoes{
+    display: flex;
+    border-style: solid;
+    border: none;
+    
+}
+.opcoes > p > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+h1{
+    margin: 0;
+    
+}
+main{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    text-align: justify;
+}
+main > h1{
+    margin: auto;
+    padding: 20px;
+    color: #04ad3c;
+}
+main > p{
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+h2{
+    color: #04ad3c;
+    background-image: linear-gradient(140 71% 9%, 0 95% 5%);
+}
+
+main > iframe{
+    background-color: #006400;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+
+    width: 95%;
+    height: 400px;
+}
+.antigos{
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    height: 250px;
+    width: 30%;
+}
+.criadora{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    height: 250px;
+    width: 30%;
+}
+.bugdroid{
+    display: flex;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+footer{
+    text-align-last: center;
+    background-color: #006400;
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid #006400;
+}
+.extra > h2{
+    background-color: #006400;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    
+}
+.extra > p > a{
+    text-decoration: none;
+    color: #006400;
+}
+.extra{
+    background-color: #32CD99;
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+
+    padding-bottom: 10px;
+    border-radius: 10px;
+    
+    
+}
+.extra > ol{
+    display: block;
+    text-align: row;
+    
+}
